@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Map 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Maps</a></li>
+							<li class="active"><a href="Map1.html">Map 1</a></li>
+							<li><a href="Map2.html">Map 2</a></li>
+							<li><a href="Map3.html">Map 3</a></li>
+							<li><a href="Map4.html">Map 4</a></li>
+							<li><a href="Map5.html">Map 5</a></li>
+							<li><a href="Map6.html">Map 6</a></li>
+							<li><a href="Map_NO2.html">NO2 analysis</a></li>
+
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/yoanie-sautjeau-55919a225/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					
+						</ul>
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">June, 2024</span>
+									<h1>Chloropleth Map</h1>
+									
+								<hr>
+					<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h4 class="align-left" ><a href="#">Number of people whose life were affected by natural disasters</a></h4>
+										
+									</header>
+									
+								
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded ArcGIS Online Map</title>
+</head>
+<body>
+    <iframe width="100%" height="600" src="https://uni-utrecht.maps.arcgis.com/apps/instant/media/index.html?appid=a6429a942e084f34ac7985cd5a2e843a" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
+
+
+
+<hr>
+									<h4>Description of the Assignment</h4>
+
+											<p>This assignment consisted of using data from the Open source Sustainable Developement Goal (SDG) data to create a choropleth map. I chose to work on indicator 13.1.1, which represents the number of people whose livelihoods were disrupted or destroyed due to disasters (number). I focused on the years 2010 and 2020 to compare this indicator 10 years apart. </p>
+
+
+											<p>I selected this SDG indicator because it is part of the climate action rubric of the UN Goals. I was intrigued by the countries impacted by natural disasters and was especially curious to see how this evolved over 10 years. I expected more disasters in the future considering the impact of global warming and the increase in intensive natural disasters.</p>
+<hr>
+
+									<h4>  Metadata </h4>
+									
+	<a href="Metadata-13-01-01.pdf" target="_blank">Download PDF</a>
+
+
+										<h6 class="align-left">Goal 13: </h6>
+										<p class="align-left">Take urgent action to combat climate change and its impacts.</p>
+
+										<h6 class="align-left">Target 13.1: </h6>
+										<p class="align-left">Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries.</p>
+
+										<h6 class="align-left">Indicator 13.1.1:</h6>
+										<p class="align-left">Number of deaths, missing persons, and directly affected persons attributed to disasters per 100,000 population.</p>
+
+										
+
+<hr>
+
+									<h4>Choropleth Map</h4>
+
+									<p> A choropleth map is a type of thematic map where areas are colored in proportion to the measurements. The coloring represents different values of the variable, allowing for a visual comparison across geographic regions. These maps are commonly used to represent data such as population density, income levels, or rates of a particular phenomenon across different regions.</p>
+
+									<p>The strengths of a choropleth map are that it is easy to interpret and compare. It is very visual and doesn’t require experience in reading maps to understand the core message. </p>
+
+
+									<p>However, this type of representation has some weaknesses. It can lead to misimpressions if the size of the geographic regions varies significantly, as larger areas might appear more significant regardless of their actual data value, for instance. Lastly, if the data values are not evenly distributed, using equal intervals for shading can result in a map where most regions appear the same color, obscuring important differences.</p>
+
+<hr>
+									<h4>Steps Taken to Create the Map</h4>
+
+									<p>To create the map, I used the global boundary file from Natural Earth to have the shape of the countries, as the UN does not provide a shapefile of country boundaries. I joined these data with the data of Indicator 13.1.1 from the 
+										<a href="https://unstats-undesa.opendata.arcgis.com/search?collection=Dataset&groupIds=a334f601cbce43e4b47b0de8aa1a5b38/"  target="_blank" > UN STAT DATA HUB.</a> 
+									I chose a graduated symbology to emphasize the difference in impact in each country, ranging from yellow to red, with grey indicating the absence of data.</p>
+
+<hr>
+<h4>Observations</h4>
+
+									<p>We can observe on the map that in 2010, Ethiopia, Sudan, Niger and Columbia were significantly affected by disasters. It is evident that the situation was more severe in 2010 compared to 2020. Further explanation can be found on the <a href="https://climateknowledgeportal.worldbank.org/country/ethiopia/vulnerability/"  target="_blank" > Climate Change Knowledge Portal. </a>
+										According to the portal, in 2010, Ethiopia experienced severe droughts that resulted in widespread famine across the country. 
+										<a href="#" class="image fit"><img src="images/Ethiopia2010.png" alt="" /></a>
+
+
+									
+
+									On the otherside of the Atlantic sea, Columbia faced in 2010 severe floods that impacted more than 2.4 millioins of people <a href="https://www3.paho.org/disasters/newsletter/458-la-nina-ravages-colombia-215-286-en.html/"  target="_blank" > (Pan American Health Organization).</a> This intense rainy season in Colombia is considerd to be the most devastating weather event in over 40 years.</p>
+									<br>
+<hr>
+									<p>Those two extreme climatic variations can be explained the phenomenon la Niña. 
+									It is a climate pattern characterized by cooler-than-average sea surface temperatures in the central and eastern tropical Pacific Ocean, leading to significant weather changes globally. 
+									<br>
+									In Africa, La Niña often brings increased rainfall to eastern regions, leading to flooding, and drought conditions to southern regions like ethiopia, impacting agriculture and water resources. 
+									<br>
+									In South America, La Niña typically causes heavy rains and flooding in northern parts like Colombia and the Amazon basin, while causing drier conditions in southern areas such as Argentina and Chile.
+
+</p>
+
+									<ul class="actions special">
+									
+										
+									</ul>
+								</article>
+
+<hr>
+							</section>
+
+
+				
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

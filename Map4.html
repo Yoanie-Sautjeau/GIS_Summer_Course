@@ -1,0 +1,104 @@
+
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Map 4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+		
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li ><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Maps</a></li>
+							<li><a href="Map1.html">Map 1</a></li>
+							<li ><a href="Map2.html">Map 2</a></li>
+							<li ><a href="Map3.html">Map 3</a></li>
+							<li class="active"><a href="Map4.html">Map 4</a></li>
+							<li><a href="Map5.html">Map 5</a></li>
+							<li><a href="Map6.html">Map 6</a></li>
+							<li><a href="Map_NO2.html">NO2 analysis</a></li>
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/yoanie-sautjeau-55919a225/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">June, 2024</span>
+									<h1>Relative Elevation Model </h1>
+									<hr>
+									
+								
+					<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h3 class="align-left" ><a href="#">Relative Elevation of Terschelling Island</a></h3>
+
+										
+									</header>
+									<a href="#" class="image fit"><img src="images/map_island_4.1.png" alt="" /></a>
+
+									<hr>
+
+									<p>The area that I chose is the island of <a href="https://maps.app.goo.gl/tAXmkFAvjJFaZBtH6/"  target="_blank" > Terschelling </a> in the north of the Netherlands. I chose this area because it has an interesting river flowing to the sea and notable topography. Indeed, there is an elevated part of this island in the north and on the west that is visible on the map in dark green.</p>
+
+									<p> To make this map, I downloaded the data from the website <a href="https://geotiles.citg.tudelft.nl//"  target="_blank" > GeoTiles. </a>  I imported it into QGIS and merged all the DTM (Digital Terrain Models). Then, I performed a Relative Elevation Model (REM) analysis to see the relative elevation of the different parts of the island.</p>
+
+									<p>In a REM, the baseline elevation (0 meters) is adjusted to follow the water surface of the river. As a result, elevations increase as one moves away from the river, showing the "relative" height above the river.
+										<br>
+
+									REMs are highly useful to study migration channels and flooding, as well as various engineering, habitat, and cultural assessments.
+								</p>
+
+									<p>I chose this color scheme to have the sea in blue and to show the elevation of the ground on the island in different shades of green. I noticed that the northern and western parts of the island are higher than the rest of the island and that the rivers are in the lowest part of the island, where the elevation is a maximum of 2 meters higher than sea level. This map shows how, if the sea level rises by more than 1 meter, the whole eastern part of the island would be underwater.</p>
+									<ul class="actions special">
+									
+										
+									</ul>
+								</article>
+
+<hr>
+							</section>
+
+
+				
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
