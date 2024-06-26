@@ -1,1 +1,1 @@
-# GIS-lab
+# GIS_Summer_Course
