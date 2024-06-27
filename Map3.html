@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title>Map 3</title>
+		<title>Map 2</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -30,8 +30,8 @@
 							<li ><a href="index.html">Home</a></li>
 							<li><a href="generic.html">Maps</a></li>
 							<li><a href="Map1.html">Map 1</a></li>
-							<li ><a href="Map2.html">Map 2</a></li>
-							<li class="active"><a href="Map3.html">Map 3</a></li>
+							<li class="active"><a href="Map2.html">Map 2</a></li>
+							<li ><a href="Map3.html">Map 3</a></li>
 							<li><a href="Map4.html">Map 4</a></li>
 							<li><a href="Map5.html">Map 5</a></li>
 							<li><a href="Map6.html">Map 6</a></li>
@@ -39,7 +39,7 @@
 
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/yoanie-sautjeau-55919a225/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.linkedin.com/in/yoanie-sautjeau-55919a225/"  target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 							
 						</ul>
 					</nav>
@@ -51,77 +51,100 @@
 							<section class="post">
 								<header class="major">
 									<span class="date">June, 2024</span>
-									<h1>Land Cover Classification</h1>
-
+									<h1>Vector Analysis</h1>
 									<hr>
-									
+								
 					<!-- Posts -->
 							<section class="posts">
 								<article>
-								
-									<p>For the third assignment, we explored various types of classifications. We utilized data from Google Earth Engine from Amsterdam in May and June 2024, importing it into ArcGIS. We generated different maps using different classification methods to determine the most suitable approach. </P>
-
-<hr>
-
-
 									<header>
 										
-										<h3 class="align-left" ><a href="#">Unsupervised Pixel-Based Classification</a></h3>
+										<h3 class="align-left" ><a href="#">Dispersion of Fraxinus trees in Utrecht</a></h3>
 
 										
 									</header>
-									<a href="#" class="image fit"><img src="images/UPBC.png" alt="" /></a>
-
-									<p>This method segments the image into groups of pixels based on their spatial properties and classifies these segments into different categories without using predefined labeled data.</p>
-<hr>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded ArcGIS Online Map</title>
+</head>
+<body>
+    <a href="#" class="image fit"><img src="images/Map2.png" alt="" /></a>
+</body>
+</html>
 
-									<header>
-										
-										<h3 class="align-left" ><a href="#">Unsupervised Object-Based Classification</a></h3>
 
-										
-									</header>
-									<a href="#" class="image fit"><img src="images/UOBC.png" alt="" /></a>
-
-									<p>This approach classifies individual pixels into categories based on their spectral properties without relying on labeled data.</p>
-<hr>
-
-<header>
-										
-										<h3 class="align-left" ><a href="#">Supervised Pixel-Based Classification</a></h3>
-
-										
-									</header>
-									<a href="#" class="image fit"><img src="images/SPBC.png" alt="" /></a>
-
-									<p>Using labeled training data, this method classifies individual pixels into predefined categories based on their spectral signatures.</p>
 
 <hr>
+									
 
+									<p>This assignment consisted of analyzing the density and dispersion of trees in Utrecht using ArcGIS.
 
-									<header>
+										I used data from the <a href="https://www.utrecht.nl/bestuur-en-organisatie/publicaties/open-data/"  target="_blank" > Gemeente Utrecht </a> , the municipality, focusing on the species Fraxinus <a href="https://fr.wikipedia.org/wiki/Fr%C3%AAne"  target="_blank" > (ash tree). </a>
+										By adding a "trees per area" criterion, I found that the neighborhood with the most of this type of tree is Vleuten-De Meern.
+
+										Next, I conducted a  
+										<a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-kernel-density-works.htm/"  target="_blank" > Kernel Density Analysis </a> to observe the overall density of trees throughout Utrecht.
+
+										One significant observation was the presence of a tree belt around the city, located between the center and the main highway. This tree belt aims to reduce air and noise pollution.</p>
+										<hr>
+										<header>
 										
-										<h3 class="align-left" ><a href="#">NDVI (Normalized Difference Vegetation Index</a></h3>
+										<h3 class="align-left" ><a href="#">Density of trees in Utrecht</a></h3>
 
 										
 									</header>
-									<a href="#" class="image fit"><img src="images/NDVI.png" alt="" /></a>
+										<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded ArcGIS Online Map</title>
+</head>
+<body>
+	<a href="#" class="image fit"><img src="images/Map2.2.png" alt="" /></a>
+    
 
-									<p>To monitor vegetation health, NDVI calculates vegetation health and coverage by comparing the difference between near-infrared and red light reflectance.
-
-									Through these classifications, we observed differences in vegetation health between agricultural areas, protected natural parks, and the city center of Amsterdam.</p>
 									<ul class="actions special">
 									
 										
 									</ul>
+
+
+
+<hr>
+<hr>
+
+										<h3 class="align-left" ><a href="#">Interactive Map of the Dispersion of Fraxinus trees in Utrecht</a></h3>
+
+										
+								
+								
+									<iframe width="100%" height="600" src=" https://uni-utrecht.maps.arcgis.com/apps/instant/basic/index.html?appid=2b26f46473694a59a17d877225493f73/" frameborder="0" allowfullscreen></iframe> 
+
+
+									<hr>
+									<h3 class="align-left" ><a href="#">Interactive Map of Density of trees in Utrecht</a></h3>
+									<iframe width="100%" height="600" src="https://uni-utrecht.maps.arcgis.com/apps/instant/basic/index.html?appid=15359a7a0a2445f99417c3e667f6b5cd" frameborder="0" allowfullscreen></iframe>
+										
 								</article>
 
-
+<hr>
 							</section>
+											</div>
+							<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; GIS Summer Course</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
+			</div>
 
+</body>
+</html>
 				
 
 		<!-- Scripts -->
